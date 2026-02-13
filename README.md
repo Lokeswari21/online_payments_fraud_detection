@@ -23,8 +23,8 @@ Dataset Name: PaySim Dataset
 Source: Kaggle
 The PaySim dataset is a synthetic dataset that simulates real-world mobile money transactions.
 ## Features Used
--step – Time step of the transaction
--type – Type of transaction
+.step – Time step of the transaction
+.type – Type of transaction
 -amount – Transaction amount
 -oldbalanceOrg – Sender balance before transaction
 -newbalanceOrig – Sender balance after transaction
