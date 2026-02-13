@@ -8,14 +8,18 @@ Machine Learning provides an effective solution by analyzing transaction pattern
 ## Project Overview
 Online payment fraud is a major concern in digital financial systems. This project uses Machine Learning techniques to classify transactions as fraudulent or legitimate. A Flask-based web interface allows users to enter transaction details and instantly view prediction results, making the system practical and user-friendly.
 ## Objectives
--Detect fraudulent online payment transactions
--Reduce financial loss caused by fraud
--Provide a simple and user-friendly web interface
--Apply machine learning classification techniques
+Detect fraudulent online payment transactions
+
+Reduce financial loss caused by fraud
+
+Provide a simple and user-friendly web interface
+
+Apply machine learning classification techniques
+
 ## Machine Learning Approach
--Algorithm Used: Random Forest Classifier
--Problem Type: Binary Classification
--Target Variable:
+Algorithm Used: Random Forest Classifier
+Problem Type: Binary Classification
+Target Variable:
 isFraud = 1 → Fraudulent transaction
 isFraud = 0 → Legitimate transaction
 ## Dataset Description
@@ -23,19 +27,19 @@ Dataset Name: PaySim Dataset
 Source: Kaggle
 The PaySim dataset is a synthetic dataset that simulates real-world mobile money transactions.
 ## Features Used
-.step – Time step of the transaction
-.type – Type of transaction
--amount – Transaction amount
--oldbalanceOrg – Sender balance before transaction
--newbalanceOrig – Sender balance after transaction
--oldbalanceDest – Receiver balance before transaction
--newbalanceDest – Receiver balance after transaction
+step – Time step of the transaction
+type – Type of transaction
+amount – Transaction amount
+oldbalanceOrg – Sender balance before transaction
+newbalanceOrig – Sender balance after transaction
+oldbalanceDest – Receiver balance before transaction
+newbalanceDest – Receiver balance after transaction
 ## Technologies Used
--Python
--Flask
--Scikit-learn
--HTML, CSS
--Git & GitHub
+Python
+Flask
+Scikit-learn
+HTML, CSS
+Git & GitHub
 ## Application Workflow
 1.User opens the Home page
 2.Clicks on Start Prediction
